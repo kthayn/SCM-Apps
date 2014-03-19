@@ -2,7 +2,9 @@ SCM Repo Grid
 =========================
 
 ## Overview
+Simple app to provide a table showing your SCM Repos.
 
+![App Screenshot] (https://raw.github.com/kthayn/SCM-Apps/master/SCM-grid/images/SCMRepoGrid.png)
 
 ## License
 
