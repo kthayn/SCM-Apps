@@ -114,7 +114,12 @@ Ext.define('CustomApp', {
                 {
                     text: 'Uri', dataIndex: 'Uri', flex: 1,
                     renderer: function(value) {
-                        return '<a href="' + value + '" >' + value + '</a>';
+                        if(value){
+                            return '<a href="' + value + '" >' + value + '</a>';
+                        }
+                        else {
+                            return 'N/A';
+                        }
                     }
 
                 },
